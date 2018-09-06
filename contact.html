@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Danilo Song - Song Technologic Solutions</title>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <!-- load tag link -->
+        <div id="link-placeholder"></div>
+        <!-- load nav-bar -->
+        <div id="nav-placeholder"></div>
+        <div class="container">
+            <div class="row row-offcanvas row-offcanvas-right">
+                <div class="container">
+                        <div class="row-fluid">
+                        <div class="col-md-7">
+                            <iframe width="100%" height="350" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14627.820514164649!2d-46.644407!3d-23.570055!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb473be4e82142d1f!2sTecno+Med!5e0!3m2!1spt-BR!2sbr!4v1536258990089"></iframe>
+                        </div>
+
+                        <div class="col-md-5">
+                                <h2>Song Technologic Solutions</h2>
+                                <address>
+                                        <strong>Work Address</strong><br>
+                                        Street address: Rua Cincinato Braga, 59 - cj. 3c1 e 3d1<br>
+                                        Neighborhood: Bela Vista<br>
+                                        State: São Paulo<br>
+                                        City: São Paulo<br>
+                                        Zip Code: 01333-011<br>
+                                </address>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <!--Navigation bar-->
+            <div id="footer-placeholder"></div>
+        </div>
+    </body>
+    
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/nav-bar.js"></script>
+<script>
+$(function(){
+   //Load nave-bar in div
+  $("#nav-placeholder").load("nav-bar.html");
+   //Load tag link in div
+  $("#link-placeholder").load("link.html");
+   //Load footer in div
+  $("#footer-placeholder").load("footer.html");
+});
+</script>
+</html>
