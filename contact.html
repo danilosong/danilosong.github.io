@@ -47,6 +47,8 @@ and open the template in the editor.
 <script src="js/nav-bar.js"></script>
 <script>
 $(function(){
+    // Reset scroll for dont have bugs in screen, because nav-bar effects
+    window.scrollTo(0,0);
    //Load nave-bar in div
   $("#nav-placeholder").load("nav-bar.html");
    //Load tag link in div

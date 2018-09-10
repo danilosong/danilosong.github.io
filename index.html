@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <title>Danilo Song - Song Technologic Solutions</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/nav-bar.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.css" rel="stylesheet">
-    <meta charset="utf-8">
-  </head>
-  <body>
-    <!--Navigation bar-->
-    <div id="nav-placeholder"></div>
+    <head>
+        <title>Danilo Song - Song Technologic Solutions</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/nav-bar.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/all.css" >
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <!--Navigation bar-->
+        <div id="nav-placeholder"></div>
         <div class="container">
 
             <div class="row row-offcanvas row-offcanvas-right">
@@ -23,36 +23,18 @@
                         <center><img width="40%" src="img/danLogo.png" /></center>
                     </div>
                     <div class="row">
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
-                        <div class="col-xs-6 col-lg-4">
-                            <h2>Heading</h2>
-                            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                            <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
-                        </div><!--/.col-xs-6.col-lg-4-->
+                        <div class="page-header">
+                          <h1>Welcome to portfolio of Danilo Song<small> A simple presentation</small></h1>
+                        </div>
+                        <div class="panel panel-primary">
+                            <div class="panel-heading">
+                                Information of Danilo Song
+                            </div>
+                            <div class="panel-body">
+                                Name: Danilo T. S. Song
+                                Date birth day: 10/10/1990
+                            </div>
+                        </div>
                     </div><!--/row-->
                 </div><!--/.col-xs-12.col-sm-9-->
             </div><!--/row-->
@@ -62,17 +44,19 @@
             <div id="footer-placeholder"></div>
 
         </div><!--/.container-->
-  </body>
-<!-- Bootstrap -->
-<script src="js/bootstrap.min.js"></script>
-<script src="js/jquery-3.3.1.min.js"></script>
-<script src="js/nav-bar.js"></script>
-<script>
-$(function(){
-   //Load nave-bar in div
-  $("#nav-placeholder").load("nav-bar.html");
-   //Load footer in div
-  $("#footer-placeholder").load("footer.html");
-});
-</script>
+    </body>
+    <!-- Bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/nav-bar.js"></script>
+    <script>
+        $(function () {
+            // Reset scroll for dont have bugs in screen, because nav-bar effects
+            window.scrollTo(0,0);
+            //Load nave-bar in div
+            $("#nav-placeholder").load("nav-bar.html");
+            //Load footer in div
+            $("#footer-placeholder").load("footer.html");
+        });
+    </script>
 </html>
