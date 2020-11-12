@@ -1,62 +1,324 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-    <head>
-        <title>Danilo Song - Song Technologic Solutions</title>
-        <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/nav-bar.css" rel="stylesheet">
-        <link rel="stylesheet" href="css/all.css" >
-        <meta charset="utf-8">
-    </head>
-    <body>
-        <!--Navigation bar-->
-        <div id="nav-placeholder"></div>
+<html lang="en">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ 
+     <!-- Site Metas -->
+    <title>Danilo Song Developer</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <p class="logo-index">Danilo Song</p>
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#socialnetwork">Redes sociais</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<section id="home" class="main-banner parallaxie" style="background: url('uploads/banner-01.jpg')">
+		<div class="heading">
+			<h1>Oi, eu sou o Danilo Song</h1>
+			<p>"Desenvolvedor FullStack, <br> mas nas horas vagas amante automobilístico."</p>
+			<h3 class="cd-headline clip is-full-width">
+				<span>Tecnologias utilizadas: </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible">PHP</b>
+					<b>Javascript / NODE</b>
+					<b>Docker</b>
+					<b>Versionamentos Github/GitLab</b>
+					<b>Sempre se adaptando as novas tecnologias</b>
+				</span>
+			</h3>
+		</div>
+	</section>
+
+	<svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
+
+    <div id="about" class="section wb">
         <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>Sobre o Danilo Song.</h2>
+                        <p>Atuação na área de Tecnologia da Informação, planejando, avaliando e executando o desenvolvimento de novos programas, estabelecendo padrões e métodos para a organização e identificando soluções de problemas técnicos e/ou administrativos.</p>
+						<p>Experiência em análise e desenvolvimento de sistemas em C++, C#, Php5+, Java, JavaScript, Jquery, Html5, CSS, PostgreSql, POO, MVC, ORM, Wordpress, manuseio no versionamento gitHub/git e MySQL. Manutenção de hardware e configurações básica de rede. Experiencia em S.O Linux/Windows/OSX.</p>
+						<p>Análise da viabilidade de desenvolvimento de sistemas, envolvendo o levantamento das necessidades, pesquisando e avaliando os sistemas disponíveis no mercado e a sua aplicação.</p>
+						<p>Realização de testes para a garantia de que os sistemas estejam sem erros e em conformidade com as especificações funcionais levantadas, produzindo assim a documentação de testes. </p>
 
-            <div class="row row-offcanvas row-offcanvas-right">
+                        <a href="#" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
 
-                <div class="col-xs-12">
-                    <p class="pull-right visible-xs">
-                        <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
-                    </p>
-                    <div class="page-header">
-                        <center><img width="40%" src="img/danLogo.png" /></center>
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="uploads/about_04.jpg" alt="" class="img-fluid img-rounded">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="services" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Serviços</h3>
+                <p>Serviços visando a qualidade e experiência do usuário.</p>
+            </div><!-- end title -->
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-seo"></i>
+						</div>
+						<h2>Desenvolvimento WEB</h2>
+						<p>Utilizando tecnologias atuais do mercado como Frameworks Laravel, Zendframework e Doctrine para PHP.</p>
+						<p>Para o desenvolvimento Javascript, Jquery, Node e React.</p>
+					</div>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-development"></i>
+						</div>
+						<h2>Design Responsivo</h2>
+						<p>Sempre visando uma melhor experiência para usuários com visual responsivo para mobile.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-process"></i>
+						</div>
+						<h2>Design Creativo</h2>
+						<p>Sempre buscando melhores opções para um visual criativo para o sistema tudo que há de melhor no mercado.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-discuss-issue"></i>
+						</div>
+						<h2>Suporte</h2>
+						<p>Oferecendo melhor experiência no suporte ao usuário, soluções rápidas e eficientes.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-idea"></i>
+						</div>
+						<h2>Web Idéia</h2>
+						<p>Visando sempre estar nas atualidades em tecnologias e em conjunto de performance dos sistemas.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-idea-1"></i>
+						</div>
+						<h2>Graphic Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+	 <div id="socialnetwork" class="section wb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Redes Sociais</h3>
+                <p>Sigam-me nas redes sociais e versionamentos! </p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <a href="https://www.linkedin.com/in/danilo-song/" target=”_blank”>
+                                <i style="color:#0a66c2;" class="fab fa-linkedin fa-5x"></i>
+                                <p>Linkedin</p>
+                            </a>
+                            <a href="https://github.com/danilosong" target=”_blank”>
+                                <i style="color:black;" class="fab fa-github-square fa-5x"></i>
+                                <p>Github</p>
+                            </a>
+                        </div>
+                        <div class="testimonial clearfix">
+                            <p class="lead">
+                                <a href="https://github.com/danilosong" target=”_blank”>
+                                    <i style="color:#d6298a;" class="fab fa-instagram-square fa-5x"></i>
+                                </a>
+                                <p>Instagram</p>
+                            </p>
+                            <p class="lead">
+                                <a href="https://www.facebook.com/danilo.song.1" target=”_blank”>
+                                    <i style="color:#4267b2;" class="fab fa-facebook-square fa-5x"></i>
+                                </a>
+                                <p>Facebook</p>
+                            </p>
+                        </div>
+                        <!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div id="contact" class="section db">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Contato</h3>
+                <p>Envie mensagem através do whatsapp</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input class="form-control" id="name" type="text" placeholder="Nome" required="required" data-validation-required-message="Por favor preecha seu nome.">
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<textarea class="form-control" id="message" placeholder="Mensagem" required="required" data-validation-required-message="Por favor preencha a mensagem."></textarea>
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-lg-12 text-center">
+									<div id="success"></div>
+									<button type="button" id="sendMessageButton" class="sim-btn btn-hover-new" data-text="" type="submit"><i style="color:#00e676;" class="fab fa-whatsapp fa-2x"></i> Enviar Mensagem Whatsapp</button>
+								</div>
+							</div>
+						</form>
                     </div>
-                    <div class="row">
-                        <div class="page-header">
-                          <h1>Welcome to portfolio of Danilo Song<small> A simple presentation</small></h1>
-                        </div>
-                        <div class="panel panel-primary">
-                            <div class="panel-heading">
-                                Information of Danilo Song
-                            </div>
-                            <div class="panel-body">
-                                Name: Danilo T. S. Song
-                                Date birth day: 10/10/1990
-                            </div>
-                        </div>
-                    </div><!--/row-->
-                </div><!--/.col-xs-12.col-sm-9-->
-            </div><!--/row-->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
 
-            <hr>
-            <!--Navigation bar-->
-            <div id="footer-placeholder"></div>
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a class="nav-link js-scroll-trigger active" href="#home">Início</a>
+                        <a class="nav-link js-scroll-trigger active" href="#socialnetwork">Rede Social</a>
+                        <a class="nav-link js-scroll-trigger active" href="#about">Sobre</a>
+                        <a class="nav-link js-scroll-trigger active" href="#contact">Contato</a>
+                    </p>
+                    <p class="footer-company-name">Todos os direitos reservados &copy; <span id="getYear"></span> <a href="#">Danilo Song</a> Design By : 
+					<a href="https://html.design/">html design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
 
-        </div><!--/.container-->
-    </body>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/nav-bar.js"></script>
-    <script>
-        $(function () {
-            // Reset scroll for dont have bugs in screen, because nav-bar effects
-            window.scrollTo(0,0);
-            //Load nave-bar in div
-            $("#nav-placeholder").load("nav-bar.html");
-            //Load footer in div
-            $("#footer-placeholder").load("footer.html");
-        });
-    </script>
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
 </html>
